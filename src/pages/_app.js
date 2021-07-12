@@ -1,5 +1,6 @@
 import { Provider } from 'react-redux'
 import { store } from '../app/store'
+import "@material-tailwind/react/tailwind.css";
 import '../styles/globals.css'
 
 const MyApp = ({ Component, pageProps }) => {
