@@ -1,4 +1,3 @@
-import Main from "../components/Main"
 import Sidebar from "../components/Sidebar"
 import Head from "next/head"
 
@@ -8,7 +7,9 @@ const index = () => {
       <Head>
         <title>Amazon | Online Shopping Site</title>
       </Head>
-      <Main/>
+      <div className={"w-full"}>
+        
+      </div>
       <Sidebar/>
     </span>
   )
